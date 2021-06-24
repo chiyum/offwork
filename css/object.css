@@ -1,0 +1,116 @@
+*{margin:0;padding:0}
+
+li{list-style:none}
+
+img{vertical-align:top;border:none}
+
+/* 分隔線 */
+
+.content{
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    width: 1000px;
+}
+
+.content img {
+    width: 200px;
+    height: 300px;
+}
+
+.img{
+    margin:0px 10px ;
+}
+
+.img h1{
+    text-align: center;
+    border: gray 1px solid;
+}
+
+.guild{
+    margin: 0 10px;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+.guild h2{
+    text-align: center;
+}
+
+.guild p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.guild input{
+    position: relative;
+    top: 100px;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.footer{
+    position: relative;
+    right: 125px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 712px;
+    text-align: center;
+    background-color: wheat;
+}
+
+#dayId,#hourId{
+    width: 20px;
+}
+
+/* rdw */
+
+@media(max-width:768px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .content{
+        flex-wrap: wrap ;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    
+}
+
+@media(max-width:752px){
+
+    .img{
+        width: 39%;
+        margin: 0.5% auto;
+    }
+
+    .img img{
+        width: 100%;
+    }
+
+    .guild{
+        width: 99%;
+        margin: 1% auto;
+        padding: 0 auto;
+        text-align: center;
+    }
+
+    .guild input{
+        position: static;
+    }
+    
+    .footer{
+        position: static;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+}
