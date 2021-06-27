@@ -37,7 +37,7 @@ store.meat.push(100)
 
 
 var who = {
-    people:['傑哥','喬治'],
+    people:['阿玫','阿如'],
     day:1440,
     hour:[30,60],
     offwork1:function(){
