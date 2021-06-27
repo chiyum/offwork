@@ -72,5 +72,7 @@ document.getElementById('countId').onclick = who.enjoy;
 //此為單純function不加在物件內
 
 
+AOS.init();
+
 
 

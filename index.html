@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/object.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="content">
-        <div class="img"><img src="./img/me.jpg" alt="玫">
+        <div class="img"><img src="./img/me.jpg" alt="玫" data-aos="zoom-out">
             <h1>阿枚</h1>
         </div>
-        <div class="img"><img src="./img/ru.jpg" alt="如">
+        <div class="img"><img src="./img/ru.jpg" alt="如" data-aos="zoom-out">
             <h1>阿如</h1>
         </div>
         <div class="guild">
@@ -22,7 +23,7 @@
             <input type="button" value="阿如" id="georgeId">
         </div>
     </div>
-    <div class="footer">
+    <div class="footer" data-aos="zoom-out-up">
         <h3>下班可以休多久?</h3>
         <p>你:我覺得可以給他們休<input type="number" id="dayId">天又
         <input type="number" id="hourId">小時
@@ -31,6 +32,7 @@
            <em id="timeId"></em>分鐘
         </p>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/object.js"></script>
 </body>
 </html>
